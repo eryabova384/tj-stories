@@ -1,0 +1,29 @@
+.btn {
+	position: absolute;
+	right: 50%;
+	bottom: 20px;
+	display: inline-block;
+	width: 100%;
+	max-width: 280px;
+	padding: 13px;
+	font-size: 15px;
+	border: none;
+	border-radius: 26px;
+	color: #000000;
+	background-color: $main-yellow-color;
+	box-shadow: 0 7px 35px rgba(0, 0, 0, 0.25);
+	transition: opacity 0.3s linear;
+	transform: translateX(50%);
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+
+	&_light {
+		color: #000000;
+		background-color: #ffffff;
+	}
+
+	&:hover {
+		opacity: 0.8;
+	}
+}

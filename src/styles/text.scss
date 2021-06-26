@@ -1,0 +1,10 @@
+.text {
+	display: block;
+
+	&_big {
+		font: {
+			size: 18px;
+		}
+		line-height: 1.22;
+	}
+}

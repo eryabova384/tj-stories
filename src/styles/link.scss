@@ -1,0 +1,11 @@
+.link {
+	display: inline-block;
+	margin-top: calc(28px - (20px - 16px) * 2);
+	color: $main-yellow-color;
+	text-decoration: underline;
+	transition: opacity 0.3s linear;
+
+	&:hover {
+		opacity: 0.8;
+	}
+}
